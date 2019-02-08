@@ -449,6 +449,7 @@
         <str name="q.alt">*:*</str>
         <str name="sow">true</str>
         <str name="uf">-*</str>
+        <str name="qs">1</str>
         &select_edismax;
     </lst>
 </requestHandler>
@@ -660,15 +661,6 @@
     <arr name="components">
       <str>terms</str>
     </arr>
-  </requestHandler>
-
-  <requestHandler name="document" class="solr.SearchHandler" >
-    <lst name="defaults">
-      <str name="echoParams">all</str>
-      <str name="fl">*</str>
-      <str name="rows">1</str>
-      <str name="q">{!term f=id v=$id}</str> <!-- use id=666 instead of q=id:666 -->
-    </lst>
   </requestHandler>
 
 </config>

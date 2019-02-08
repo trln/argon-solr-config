@@ -4,36 +4,41 @@
 
 -->
 
-<!-- text
-      A straight-up basic text type, good for all your normal text needs -->
-
-<fieldType name="text" class="solr.TextField" positionIncrementGap="&tpig;">
+<fieldType name="text" class="solr.TextField" positionIncrementGap="&tpig;"
+           autoGeneratePhraseQueries="true">
   <analyzer type="index">
-      &basic_text_chain_with_synonyms;
-      &stemmer;
-      <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+    &char_filters;
+    &basic_text_chain_with_synonyms;
+    <!-- At index time WordDelimiterGraphFilter must be followed with a
+    FlattenGraphFilter to squash tokens on top of one another
+    because the indexer can’t directly consume a graph. -->
+    <filter class="solr.FlattenGraphFilterFactory"/>
+    &stemmer;
   </analyzer>
   <analyzer type="query">
+    &char_filters;
     &basic_text_chain;
     &stemmer;
-    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
   </analyzer>
 </fieldType>
 
-<!-- text_nostem
-     Same as text, but without stemming -->
-
-<fieldType name="text_nostem" class="solr.TextField" positionIncrementGap="&tpig;">
+<fieldType name="text_nostem" class="solr.TextField" positionIncrementGap="&tpig;"
+           autoGeneratePhraseQueries="true">
   <analyzer type="index">
-      &basic_text_chain_with_synonyms;
-      <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+    &char_filters;
+    &basic_text_chain_with_synonyms;
+    <!-- At index time WordDelimiterGraphFilter must be followed with a
+    FlattenGraphFilter to squash tokens on top of one another
+    because the indexer can’t directly consume a graph. -->
+    <filter class="solr.FlattenGraphFilterFactory"/>
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
   </analyzer>
   <analyzer type="query">
+    &char_filters;
     &basic_text_chain;
-    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
   </analyzer>
 </fieldType>
-
 
 <!-- text_l- A left-anchored text type, that only matches if it the query matches
      the indexed value starting at the left hand side.
@@ -48,58 +53,47 @@
      use this with phrase searches.
 
 -->
-
 <fieldType name="text_leftjustified" class="solr.TextField" positionIncrementGap="&tpig;">
-  <analyzer>
-    <charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
-    <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
-    <!-- Eliminate leading and trailing punctuation and add on a prefix -->
+  <analyzer type="index">
+    &char_filters;
     <charFilter class="solr.PatternReplaceCharFilterFactory"
-                pattern="^\p{Punct}*(.*?)\p{Punct}*$" replacement="aaaaa$1" />  
-    <tokenizer class="solr.ICUTokenizerFactory"/>
-    <filter class="solr.ICUFoldingFilterFactory"/>
-    <filter class="solr.CJKWidthFilterFactory"/>
-    <filter class="solr.CJKBigramFilterFactory"/>
-    <filter class="solr.DecimalDigitFilterFactory"/>
-    <filter class="solr.KeywordRepeatFilterFactory"/>
-      &stemmer;
-    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+                pattern="^\p{Punct}*(.*?)\p{Punct}*$" replacement="aaaaa$1" />
+    &basic_text_chain;
+    <!-- At index time WordDelimiterGraphFilter must be followed with a
+    FlattenGraphFilter to squash tokens on top of one another
+    because the indexer can’t directly consume a graph. -->
+    <filter class="solr.FlattenGraphFilterFactory"/>
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+  </analyzer>
+  <analyzer type="query">
+    &char_filters;
+    <charFilter class="solr.PatternReplaceCharFilterFactory"
+                pattern="^\p{Punct}*(.*?)\p{Punct}*$" replacement="aaaaa$1" />
+    &basic_text_chain;
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
   </analyzer>
 </fieldType>
 
-<!-- exactish - a text type that only matches on the whole string, but with
-     case folding, removal of punctuation, etc.
 
-     This is a more gentle replacement for a String field, which is a bit too
-     extreme in its definition of matching for things like titles
-
-     For general use, this works only if you put in the whole search string
-     as a phrase.
-
-     However, it's probably a pretty good sort key as well
--->
-
+<!-- Text type field with basic tokenization, retains punctuation for
+    "text" matching against misc-type ID fields. -->
+<!-- On client side, Lucene query parser breaks things up by whitespace -->
+<!-- *before* field analysis for edismax so punctuation terms (& : ;) are stopwords -->
+<!-- to allow results from other fields when these chars are surrounded by spaces in query -->
 <fieldType name="exactish" class="solr.TextField" positionIncrementGap="&tpig;">
-  <analyzer>
-    <charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
-    <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
-    <tokenizer class="solr.KeywordTokenizerFactory"/>
+  <analyzer type="index">
+    <tokenizer class="solr.WhitespaceTokenizerFactory"/>
     <filter class="solr.ICUFoldingFilterFactory"/>
-    <filter class="solr.CJKWidthFilterFactory"/>
-    <filter class="solr.CJKBigramFilterFactory"/>
-    <filter class="solr.DecimalDigitFilterFactory"/>
-    <filter class="solr.KeywordRepeatFilterFactory"/>
-    <!-- Some punctuation that should be turned into a space (probably just - and :). -->
-    <filter class="solr.PatternReplaceFilterFactory"
-            pattern="([:\-])" replacement=" " replace="all"
-            />
-            
-    <!-- Remove all other punctuation -->
-    <filter class="solr.PatternReplaceFilterFactory"
-            pattern="(\p{Punct})" replacement="" replace="all"
-            />
     <filter class="solr.TrimFilterFactory"/>
-    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>            
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+  </analyzer>
+  <analyzer type="query">
+    <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+    <filter class="solr.ICUFoldingFilterFactory"/>
+    <filter class="solr.TrimFilterFactory"/>
+    <!-- removing punctuation for Lucene query parser issues -->
+    <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_punctuation.txt" />
+    <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
   </analyzer>
 </fieldType>
 
@@ -110,5 +104,4 @@
     <filter class="solr.LowerCaseFilterFactory"/>
   </analyzer>
 </fieldType>
-
 

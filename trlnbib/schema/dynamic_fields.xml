@@ -1,4 +1,4 @@
-<!-- This file generated from /Users/lukeluke/Sites/trln-discovery/solr6_test_conf/bin/generate_dynamic_fields
+<!-- This file generated from /Users/cl334/workspace/trln-shared/solr6_test_conf/bin/generate_dynamic_fields
 
     To understand what the heck is going on here (or at least
     what I was going for), see the docs at
@@ -133,6 +133,19 @@
 <copyField source="*_str_stored_single" dest="*_str" />
 <copyField source="*_str_stored_single" dest="*" />
 <copyField source="*_str_single" dest="*_str" />
+
+
+
+<!-- Suffix _strps, producing indexed fields of type 'string_punct_stop' -->
+<dynamicField name="*_strps" type="string_punct_stop" indexed="true" stored="false" multiValued="true" />
+<dynamicField name="*_strps_stored" type="ignored" indexed="false" stored="false" multiValued="true" />
+<dynamicField name="*_strps_single" type="ignored" indexed="false" stored="false" multiValued="false" />
+<dynamicField name="*_strps_stored_single" type="ignored" indexed="false" stored="false" multiValued="false" />
+<copyField source="*_strps_stored" dest="*_strps" />
+<copyField source="*_strps_stored" dest="*_a" />
+<copyField source="*_strps_stored_single" dest="*_strps" />
+<copyField source="*_strps_stored_single" dest="*" />
+<copyField source="*_strps_single" dest="*_strps" />
 
 
 
@@ -342,6 +355,24 @@
 <copyField source="*_tsearch_stored" dest="*_tp" />
 <copyField source="*_tsearch_stored" dest="*_a" />
 <copyField source="*_tsearch_stored_single" dest="*" />
+
+
+
+<!-- Suffix _tsearchtp, mapping to multiple other suffixes: [t (text), tp (text_nostem)] -->
+<dynamicField name="*_tsearchtp" type="ignored" indexed="false" stored="false" multiValued="true" />
+<dynamicField name="*_tsearchtp_single" type="ignored" indexed="false" stored="false" multiValued="false" />
+<copyField source="*_tsearchtp" dest="*_t" />
+<copyField source="*_tsearchtp_single" dest="*_t" />
+<copyField source="*_tsearchtp" dest="*_tp" />
+<copyField source="*_tsearchtp_single" dest="*_tp" />
+<dynamicField name="*_tsearchtp_stored_single" type="ignored" indexed="false" stored="false" multiValued="false" />
+<dynamicField name="*_tsearchtp_stored" type="ignored" indexed="false" stored="false" multiValued="true" />
+<copyField source="*_tsearchtp_stored_single" dest="*_t" />
+<copyField source="*_tsearchtp_stored" dest="*_t" />
+<copyField source="*_tsearchtp_stored_single" dest="*_tp" />
+<copyField source="*_tsearchtp_stored" dest="*_tp" />
+<copyField source="*_tsearchtp_stored" dest="*_a" />
+<copyField source="*_tsearchtp_stored_single" dest="*" />
 
 
 

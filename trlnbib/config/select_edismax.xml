@@ -1,298 +1,304 @@
 <str name="author_pf">
-  alt_edition_author_ara_v^1
-  alt_edition_author_cjk_v^1
-  alt_edition_author_rus_v^1
-  alt_edition_author_t^1
-  data_source_author_ara_v^1
-  data_source_author_cjk_v^1
-  data_source_author_rus_v^1
-  data_source_author_t^1
-  earlier_author_ara_v^1
-  earlier_author_cjk_v^1
-  earlier_author_rus_v^1
-  earlier_author_t^1
-  has_supplement_author_ara_v^1
-  has_supplement_author_cjk_v^1
-  has_supplement_author_rus_v^1
-  has_supplement_author_t^1
-  host_item_author_ara_v^1
-  host_item_author_cjk_v^1
-  host_item_author_rus_v^1
-  host_item_author_t^1
-  included_author_ara_v^1
-  included_author_cjk_v^1
-  included_author_rus_v^1
-  included_author_t^1
-  issued_with_author_ara_v^1
-  issued_with_author_cjk_v^1
-  issued_with_author_rus_v^1
-  issued_with_author_t^1
-  later_author_ara_v^1
-  later_author_cjk_v^1
-  later_author_rus_v^1
-  later_author_t^1
-  names_contributor_ara_v^1
-  names_contributor_cjk_v^1
-  names_contributor_rus_v^1
-  names_contributor_t^1
-  names_creator_ara_v^1
-  names_creator_cjk_v^1
-  names_creator_rus_v^1
-  names_creator_t^1
-  names_director_ara_v^1
-  names_director_cjk_v^1
-  names_director_rus_v^1
-  names_director_t^1
-  names_editor_ara_v^1
-  names_editor_cjk_v^1
-  names_editor_rus_v^1
-  names_editor_t^1
-  names_manufacturer_ara_v^1
-  names_manufacturer_cjk_v^1
-  names_manufacturer_rus_v^1
-  names_manufacturer_t^1
-  names_no_rel_ara_v^1
-  names_no_rel_cjk_v^1
-  names_no_rel_rus_v^1
-  names_no_rel_t^1
-  names_other_ara_v^1
-  names_other_cjk_v^1
-  names_other_rus_v^1
-  names_other_t^1
-  names_owner_ara_v^1
-  names_owner_cjk_v^1
-  names_owner_rus_v^1
-  names_owner_t^1
-  names_publisher_ara_v^1
-  names_publisher_cjk_v^1
-  names_publisher_rus_v^1
-  names_publisher_t^1
-  names_uncategorized_ara_v^1
-  names_uncategorized_cjk_v^1
-  names_uncategorized_rus_v^1
-  names_uncategorized_t^1
-  note_performer_credits_indexed_ara_v^1
-  note_performer_credits_indexed_cjk_v^1
-  note_performer_credits_indexed_rus_v^1
-  note_performer_credits_indexed_t^1
-  note_production_credits_ara_v^1
-  note_production_credits_cjk_v^1
-  note_production_credits_rus_v^1
-  note_production_credits_t^1
-  related_author_ara_v^1
-  related_author_cjk_v^1
-  related_author_rus_v^1
-  related_author_t^1
-  series_author_ara_v^1
-  series_author_cjk_v^1
-  series_author_rus_v^1
-  series_author_t^1
-  statement_of_responsibility_ara_v^1
-  statement_of_responsibility_cjk_v^1
-  statement_of_responsibility_rus_v^1
-  statement_of_responsibility_t^1
-  subseries_author_ara_v^1
-  subseries_author_cjk_v^1
-  subseries_author_rus_v^1
-  subseries_author_t^1
-  supplement_to_author_ara_v^1
-  supplement_to_author_cjk_v^1
-  supplement_to_author_rus_v^1
-  supplement_to_author_t^1
-  this_author_ara_v^1
-  this_author_cjk_v^1
-  this_author_rus_v^1
-  this_author_t^1
-  translated_as_author_ara_v^1
-  translated_as_author_cjk_v^1
-  translated_as_author_rus_v^1
-  translated_as_author_t^1
-  translation_of_author_ara_v^1
-  translation_of_author_cjk_v^1
-  translation_of_author_rus_v^1
-  translation_of_author_t^1
+  alt_edition_author_ara_v
+  alt_edition_author_cjk_v
+  alt_edition_author_rus_v
+  alt_edition_author_tp
+  data_source_author_ara_v
+  data_source_author_cjk_v
+  data_source_author_rus_v
+  data_source_author_tp
+  earlier_author_ara_v
+  earlier_author_cjk_v
+  earlier_author_rus_v
+  earlier_author_tp
+  has_supplement_author_ara_v
+  has_supplement_author_cjk_v
+  has_supplement_author_rus_v
+  has_supplement_author_tp
+  host_item_author_ara_v
+  host_item_author_cjk_v
+  host_item_author_rus_v
+  host_item_author_tp
+  included_author_ara_v
+  included_author_cjk_v
+  included_author_rus_v
+  included_author_tp
+  issued_with_author_ara_v
+  issued_with_author_cjk_v
+  issued_with_author_rus_v
+  issued_with_author_tp
+  later_author_ara_v
+  later_author_cjk_v
+  later_author_rus_v
+  later_author_tp
+  names_contributor_ara_v
+  names_contributor_cjk_v
+  names_contributor_rus_v
+  names_contributor_tp
+  names_creator_ara_v
+  names_creator_cjk_v
+  names_creator_rus_v
+  names_creator_tp
+  names_director_ara_v
+  names_director_cjk_v
+  names_director_rus_v
+  names_director_tp
+  names_editor_ara_v
+  names_editor_cjk_v
+  names_editor_rus_v
+  names_editor_tp
+  names_manufacturer_ara_v
+  names_manufacturer_cjk_v
+  names_manufacturer_rus_v
+  names_manufacturer_tp
+  names_no_rel_ara_v
+  names_no_rel_cjk_v
+  names_no_rel_rus_v
+  names_no_rel_tp
+  names_other_ara_v
+  names_other_cjk_v
+  names_other_rus_v
+  names_other_tp
+  names_owner_ara_v
+  names_owner_cjk_v
+  names_owner_rus_v
+  names_owner_tp
+  names_publisher_ara_v
+  names_publisher_cjk_v
+  names_publisher_rus_v
+  names_publisher_tp
+  names_uncategorized_ara_v
+  names_uncategorized_cjk_v
+  names_uncategorized_rus_v
+  names_uncategorized_tp
+  note_performer_credits_indexed_ara_v
+  note_performer_credits_indexed_cjk_v
+  note_performer_credits_indexed_rus_v
+  note_performer_credits_indexed_tp
+  note_production_credits_ara_v
+  note_production_credits_cjk_v
+  note_production_credits_rus_v
+  note_production_credits_tp
+  related_author_ara_v
+  related_author_cjk_v
+  related_author_rus_v
+  related_author_tp
+  series_author_ara_v
+  series_author_cjk_v
+  series_author_rus_v
+  series_author_tp
+  statement_of_responsibility_ara_v
+  statement_of_responsibility_cjk_v
+  statement_of_responsibility_rus_v
+  statement_of_responsibility_tp
+  subseries_author_ara_v
+  subseries_author_cjk_v
+  subseries_author_rus_v
+  subseries_author_tp
+  supplement_to_author_ara_v
+  supplement_to_author_cjk_v
+  supplement_to_author_rus_v
+  supplement_to_author_tp
+  this_author_ara_v
+  this_author_cjk_v
+  this_author_rus_v
+  this_author_tp
+  translated_as_author_ara_v
+  translated_as_author_cjk_v
+  translated_as_author_rus_v
+  translated_as_author_tp
+  translation_of_author_ara_v
+  translation_of_author_cjk_v
+  translation_of_author_rus_v
+  translation_of_author_tp
 </str>
 <str name="author_qf">
-  alt_edition_author_ara_v^1
-  alt_edition_author_cjk_v^1
-  alt_edition_author_rus_v^1
-  alt_edition_author_t^1
-  data_source_author_ara_v^1
-  data_source_author_cjk_v^1
-  data_source_author_rus_v^1
-  data_source_author_t^1
-  earlier_author_ara_v^1
-  earlier_author_cjk_v^1
-  earlier_author_rus_v^1
-  earlier_author_t^1
-  has_supplement_author_ara_v^1
-  has_supplement_author_cjk_v^1
-  has_supplement_author_rus_v^1
-  has_supplement_author_t^1
-  host_item_author_ara_v^1
-  host_item_author_cjk_v^1
-  host_item_author_rus_v^1
-  host_item_author_t^1
+  alt_edition_author_ara_v
+  alt_edition_author_cjk_v
+  alt_edition_author_rus_v
+  alt_edition_author_tp
+  data_source_author_ara_v
+  data_source_author_cjk_v
+  data_source_author_rus_v
+  data_source_author_tp
+  earlier_author_ara_v
+  earlier_author_cjk_v
+  earlier_author_rus_v
+  earlier_author_tp
+  has_supplement_author_ara_v
+  has_supplement_author_cjk_v
+  has_supplement_author_rus_v
+  has_supplement_author_tp
+  host_item_author_ara_v
+  host_item_author_cjk_v
+  host_item_author_rus_v
+  host_item_author_tp
   included_author_ara_v^10
   included_author_cjk_v^10
   included_author_rus_v^10
-  included_author_t^10
-  issued_with_author_ara_v^1
-  issued_with_author_cjk_v^1
-  issued_with_author_rus_v^1
-  issued_with_author_t^1
-  later_author_ara_v^1
-  later_author_cjk_v^1
-  later_author_rus_v^1
-  later_author_t^1
+  included_author_tp^10
+  issued_with_author_ara_v
+  issued_with_author_cjk_v
+  issued_with_author_rus_v
+  issued_with_author_tp
+  later_author_ara_v
+  later_author_cjk_v
+  later_author_rus_v
+  later_author_tp
   names_contributor_ara_v^5
   names_contributor_cjk_v^5
   names_contributor_rus_v^5
-  names_contributor_t^5
+  names_contributor_tp^5
   names_creator_ara_v^20
   names_creator_cjk_v^20
   names_creator_rus_v^20
-  names_creator_t^20
+  names_creator_tp^20
   names_director_ara_v^20
   names_director_cjk_v^20
   names_director_rus_v^20
-  names_director_t^20
+  names_director_tp^20
   names_editor_ara_v^15
   names_editor_cjk_v^15
   names_editor_rus_v^15
-  names_editor_t^15
+  names_editor_tp^15
   names_manufacturer_ara_v^1.25
   names_manufacturer_cjk_v^1.25
   names_manufacturer_rus_v^1.25
-  names_manufacturer_t^1.25
+  names_manufacturer_tp^1.25
   names_no_rel_ara_v^15
   names_no_rel_cjk_v^15
   names_no_rel_rus_v^15
-  names_no_rel_t^15
+  names_no_rel_tp^15
   names_other_ara_v^2
   names_other_cjk_v^2
   names_other_rus_v^2
-  names_other_t^2
+  names_other_tp^2
   names_owner_ara_v^2
   names_owner_cjk_v^2
   names_owner_rus_v^2
-  names_owner_t^2
+  names_owner_tp^2
   names_publisher_ara_v^1.25
   names_publisher_cjk_v^1.25
   names_publisher_rus_v^1.25
-  names_publisher_t^1.25
+  names_publisher_tp^1.25
   names_uncategorized_ara_v^2
   names_uncategorized_cjk_v^2
   names_uncategorized_rus_v^2
-  names_uncategorized_t^2
+  names_uncategorized_tp^2
   note_performer_credits_indexed_ara_v^5
   note_performer_credits_indexed_cjk_v^5
   note_performer_credits_indexed_rus_v^5
-  note_performer_credits_indexed_t^5
+  note_performer_credits_indexed_tp^5
   note_production_credits_ara_v^5
   note_production_credits_cjk_v^5
   note_production_credits_rus_v^5
-  note_production_credits_t^5
-  related_author_ara_v^1
-  related_author_cjk_v^1
-  related_author_rus_v^1
-  related_author_t^1
-  series_author_ara_v^1
-  series_author_cjk_v^1
-  series_author_rus_v^1
-  series_author_t^1
+  note_production_credits_tp^5
+  related_author_ara_v
+  related_author_cjk_v
+  related_author_rus_v
+  related_author_tp
+  series_author_ara_v
+  series_author_cjk_v
+  series_author_rus_v
+  series_author_tp
   statement_of_responsibility_ara_v^20
   statement_of_responsibility_cjk_v^20
   statement_of_responsibility_rus_v^20
-  statement_of_responsibility_t^20
-  subseries_author_ara_v^1
-  subseries_author_cjk_v^1
-  subseries_author_rus_v^1
-  subseries_author_t^1
-  supplement_to_author_ara_v^1
-  supplement_to_author_cjk_v^1
-  supplement_to_author_rus_v^1
-  supplement_to_author_t^1
+  statement_of_responsibility_tp^20
+  subseries_author_ara_v
+  subseries_author_cjk_v
+  subseries_author_rus_v
+  subseries_author_tp
+  supplement_to_author_ara_v
+  supplement_to_author_cjk_v
+  supplement_to_author_rus_v
+  supplement_to_author_tp
   this_author_ara_v^5
   this_author_cjk_v^5
   this_author_rus_v^5
-  this_author_t^5
-  translated_as_author_ara_v^1
-  translated_as_author_cjk_v^1
-  translated_as_author_rus_v^1
-  translated_as_author_t^1
-  translation_of_author_ara_v^1
-  translation_of_author_cjk_v^1
-  translation_of_author_rus_v^1
-  translation_of_author_t^1
+  this_author_tp^5
+  translated_as_author_ara_v
+  translated_as_author_cjk_v
+  translated_as_author_rus_v
+  translated_as_author_tp
+  translation_of_author_ara_v
+  translation_of_author_cjk_v
+  translation_of_author_rus_v
+  translation_of_author_tp
 </str>
 <str name="isbn_issn_qf">
-  alt_edition_isbn_isbn^1
-  alt_edition_issn_num^1
-  alt_edition_other_ids_str^1
-  barcodes_str^10
-  data_source_isbn_isbn^1
-  data_source_issn_num^1
-  data_source_other_ids_str^1
-  earlier_isbn_isbn^1
-  earlier_issn_num^1
-  earlier_other_ids_str^1
-  has_supplement_isbn_isbn^1
-  has_supplement_issn_num^1
-  has_supplement_other_ids_str^1
-  host_item_isbn_isbn^1
-  host_item_issn_num^1
-  host_item_other_ids_str^1
+  alt_edition_isbn_isbn
+  alt_edition_issn_num
+  alt_edition_other_ids_e
+  barcodes_strps^10
+  data_source_isbn_isbn
+  data_source_issn_num
+  data_source_other_ids_e
+  earlier_isbn_isbn
+  earlier_issn_num
+  earlier_other_ids_e
+  has_supplement_isbn_isbn
+  has_supplement_issn_num
+  has_supplement_other_ids_e
+  host_item_isbn_isbn
+  host_item_issn_num
+  host_item_other_ids_e
   included_isbn_isbn^5
   included_issn_num^5
-  included_other_ids_str^5
+  included_other_ids_e^5
   isbn_number_isbn^10
   issn_linking_num^5
   issn_primary_num^10
-  issn_series_num^1
-  issued_with_isbn_isbn^1
-  issued_with_issn_num^1
-  issued_with_other_ids_str^1
-  later_isbn_isbn^1
-  later_issn_num^1
-  later_other_ids_str^1
-  misc_id_indexed_str^10
-  oclc_number_str^10
-  related_isbn_isbn^1
-  related_issn_num^1
-  related_other_ids_str^1
-  series_issn_num^1
-  series_statement_issn_isbn^1
-  series_statement_other_ids_num^1
-  supplement_to_issn_num^1
-  supplement_to_other_ids_num^1
-  translated_as_isbn_isbn^1
-  translated_as_issn_num^1
-  translated_as_other_ids_str^1
-  translation_of_isbn_isbn^1
-  translation_of_issn_num^1
-  translation_of_other_ids_str^1
-  upc_indexed_str^10
+  issn_series_num
+  issued_with_isbn_isbn
+  issued_with_issn_num
+  issued_with_other_ids_e
+  later_isbn_isbn
+  later_issn_num
+  later_other_ids_e
+  misc_id_indexed_e^10
+  oclc_number_strps^10
+  oclc_number_num^10
+  oclc_number_old_num
+  related_isbn_isbn
+  related_issn_num
+  related_other_ids_e
+  series_issn_num
+  series_statement_issn_num
+  series_statement_other_ids_num
+  supplement_to_issn_num
+  supplement_to_other_ids_num
+  translated_as_isbn_isbn
+  translated_as_issn_num
+  translated_as_other_ids_e
+  translation_of_isbn_isbn
+  translation_of_issn_num
+  translation_of_other_ids_e
+  upc_indexed_num^10
 </str>
 <str name="pf">
   alt_edition_isbn_isbn^5
   alt_edition_issn_num^5
+  alt_edition_other_ids_e
   alt_edition_work_indexed_ara_v^5
   alt_edition_work_indexed_cjk_v^5
   alt_edition_work_indexed_rus_v^5
   alt_edition_work_indexed_t^5
-  data_source_isbn_isbn^1
-  data_source_issn_num^1
-  data_source_work_indexed_ara_v^1
-  data_source_work_indexed_cjk_v^1
-  data_source_work_indexed_rus_v^1
-  data_source_work_indexed_t^1
+  data_source_isbn_isbn
+  data_source_issn_num
+  data_source_work_indexed_ara_v
+  data_source_work_indexed_cjk_v
+  data_source_work_indexed_rus_v
+  data_source_work_indexed_t
+  data_source_other_ids_e
+  barcodes_strps
   earlier_isbn_isbn^3
   earlier_issn_num^3
   earlier_work_indexed_ara_v^3
   earlier_work_indexed_cjk_v^3
   earlier_work_indexed_rus_v^3
   earlier_work_indexed_t^3
+  earlier_other_ids_e
   edition_indexed_ara_v^20
   edition_indexed_cjk_v^20
   edition_indexed_rus_v^20
@@ -301,20 +307,24 @@
   genre_headings_cjk_v^50
   genre_headings_rus_v^50
   genre_headings_t^50
-  has_supplement_isbn_isbn^1
-  has_supplement_issn_num^1
-  has_supplement_work_indexed_ara_v^1
-  has_supplement_work_indexed_cjk_v^1
-  has_supplement_work_indexed_rus_v^1
-  has_supplement_work_indexed_t^1
-  host_item_isbn_isbn^1
-  host_item_issn_num^1
-  host_item_work_indexed_ara_v^1
-  host_item_work_indexed_cjk_v^1
-  host_item_work_indexed_rus_v^1
-  host_item_work_indexed_t^1
+  genre_headings_tp^50
+  has_supplement_isbn_isbn
+  has_supplement_issn_num
+  has_supplement_other_ids_e
+  has_supplement_work_indexed_ara_v
+  has_supplement_work_indexed_cjk_v
+  has_supplement_work_indexed_rus_v
+  has_supplement_work_indexed_t
+  host_item_isbn_isbn
+  host_item_issn_num
+  host_item_other_ids_e
+  host_item_work_indexed_ara_v
+  host_item_work_indexed_cjk_v
+  host_item_work_indexed_rus_v
+  host_item_work_indexed_t
   included_isbn_isbn^35
   included_issn_num^35
+  included_other_ids_e
   included_work_indexed_ara_v^35
   included_work_indexed_cjk_v^35
   included_work_indexed_rus_v^35
@@ -325,6 +335,7 @@
   issn_series_num^50
   issued_with_isbn_isbn^2
   issued_with_issn_num^2
+  issued_with_other_ids_e
   issued_with_work_indexed_ara_v^2
   issued_with_work_indexed_cjk_v^2
   issued_with_work_indexed_rus_v^2
@@ -335,46 +346,48 @@
   later_work_indexed_cjk_v^3
   later_work_indexed_rus_v^3
   later_work_indexed_t^3
+  later_other_ids_e
+  misc_id_indexed_e
   names_contributor_ara_v^35
   names_contributor_cjk_v^35
   names_contributor_rus_v^35
-  names_contributor_t^35
+  names_contributor_tp^35
   names_creator_ara_v^50
   names_creator_cjk_v^50
   names_creator_rus_v^50
-  names_creator_t^50
+  names_creator_tp^100
   names_director_ara_v^50
   names_director_cjk_v^50
   names_director_rus_v^50
-  names_director_t^50
+  names_director_tp^100
   names_editor_ara_v^45
   names_editor_cjk_v^45
   names_editor_rus_v^45
-  names_editor_t^45
+  names_editor_tp^45
   names_manufacturer_ara_v^20
   names_manufacturer_cjk_v^20
   names_manufacturer_rus_v^20
-  names_manufacturer_t^20
+  names_manufacturer_tp^20
   names_no_rel_ara_v^45
   names_no_rel_cjk_v^45
   names_no_rel_rus_v^45
-  names_no_rel_t^45
+  names_no_rel_tp^100
   names_other_ara_v^30
   names_other_cjk_v^30
   names_other_rus_v^30
-  names_other_t^30
+  names_other_tp^30
   names_owner_ara_v^30
   names_owner_cjk_v^30
   names_owner_rus_v^30
-  names_owner_t^30
+  names_owner_tp^30
   names_publisher_ara_v^20
   names_publisher_cjk_v^20
   names_publisher_rus_v^20
-  names_publisher_t^20
+  names_publisher_tp^20
   names_uncategorized_ara_v^30
   names_uncategorized_cjk_v^30
   names_uncategorized_rus_v^30
-  names_uncategorized_t^30
+  names_uncategorized_tp^30
   note_admin_history_ara_v^20
   note_admin_history_cjk_v^20
   note_admin_history_rus_v^20
@@ -410,11 +423,11 @@
   note_performer_credits_indexed_ara_v^30
   note_performer_credits_indexed_cjk_v^30
   note_performer_credits_indexed_rus_v^30
-  note_performer_credits_indexed_t^30
+  note_performer_credits_indexed_tp^30
   note_production_credits_ara_v^30
   note_production_credits_cjk_v^30
   note_production_credits_rus_v^30
-  note_production_credits_t^30
+  note_production_credits_tp^30
   note_related_work_indexed_ara_v^30
   note_related_work_indexed_cjk_v^30
   note_related_work_indexed_rus_v^30
@@ -439,6 +452,8 @@
   note_with_cjk_v^20
   note_with_rus_v^20
   note_with_t^20
+  oclc_number_num
+  oclc_number_old_num
   physical_description_details_indexed_ara_v^20
   physical_description_details_indexed_cjk_v^20
   physical_description_details_indexed_rus_v^20
@@ -451,44 +466,48 @@
   publisher_cjk_v^20
   publisher_rus_v^20
   publisher_t^20
-  related_isbn_isbn^1
-  related_issn_num^1
-  related_work_indexed_ara_v^1
-  related_work_indexed_cjk_v^1
-  related_work_indexed_rus_v^1
-  related_work_indexed_t^1
+  related_isbn_isbn
+  related_issn_num
+  related_other_ids_e
+  related_work_indexed_ara_v
+  related_work_indexed_cjk_v
+  related_work_indexed_rus_v
+  related_work_indexed_t
   series_issn_num^35
   series_statement_indexed_ara_v^35
   series_statement_indexed_cjk_v^35
   series_statement_indexed_rus_v^35
   series_statement_indexed_t^35
-  series_statement_issn_isbn^35
+  series_statement_issn_num^35
   series_statement_other_ids_num^35
   series_work_indexed_ara_v^35
   series_work_indexed_cjk_v^35
   series_work_indexed_rus_v^35
   series_work_indexed_t^35
   short_title_t^100
+  short_title_tp^200
   statement_of_responsibility_ara_v^50
   statement_of_responsibility_cjk_v^50
   statement_of_responsibility_rus_v^50
-  statement_of_responsibility_t^50
-  subject_headings_ara_v^50
-  subject_headings_cjk_v^50
-  subject_headings_remapped_t^50
-  subject_headings_rus_v^50
-  subject_headings_t^50
+  statement_of_responsibility_tp^50
+  subject_headings_ara_v
+  subject_headings_cjk_v
+  subject_headings_remapped_t
+  subject_headings_remapped_tp
+  subject_headings_rus_v
+  subject_headings_t
+  subject_headings_tp
   subseries_work_indexed_ara_v^35
   subseries_work_indexed_cjk_v^35
   subseries_work_indexed_rus_v^35
   subseries_work_indexed_t^35
-  supplement_to_isbn_isbn^1
-  supplement_to_issn_num^1
-  supplement_to_other_ids_num^1
-  supplement_to_work_indexed_ara_v^1
-  supplement_to_work_indexed_cjk_v^1
-  supplement_to_work_indexed_rus_v^1
-  supplement_to_work_indexed_t^1
+  supplement_to_isbn_isbn
+  supplement_to_issn_num
+  supplement_to_other_ids_num
+  supplement_to_work_indexed_ara_v
+  supplement_to_work_indexed_cjk_v
+  supplement_to_work_indexed_rus_v
+  supplement_to_work_indexed_t
   this_work_indexed_ara_v^35
   this_work_indexed_cjk_v^35
   this_work_indexed_rus_v^35
@@ -497,50 +516,62 @@
   title_abbrev_indexed_cjk_v^35
   title_abbrev_indexed_rus_v^35
   title_abbrev_indexed_t^35
+  title_abbrev_indexed_tp^70
   title_former_indexed_ara_v^40
   title_former_indexed_cjk_v^40
   title_former_indexed_rus_v^40
   title_former_indexed_t^40
+  title_former_indexed_tp^80
   title_key_indexed_ara_v^35
   title_key_indexed_cjk_v^35
   title_key_indexed_rus_v^35
   title_key_indexed_t^35
-  title_main_ara_v^50
-  title_main_cjk_v^50
-  title_main_indexed_t^50
-  title_main_rus_v^50
+  title_key_indexed_tp^70
+  title_main_ara_v^100
+  title_main_cjk_v^100
+  title_main_indexed_t^100
+  title_main_indexed_tp^200
+  title_main_rus_v^100
   title_variant_indexed_ara_v^40
   title_variant_indexed_cjk_v^40
   title_variant_indexed_rus_v^40
   title_variant_indexed_t^40
+  title_variant_indexed_tp^80
   translated_as_isbn_isbn^5
   translated_as_issn_num^5
+  translated_as_other_ids_e
   translated_as_work_indexed_ara_v^5
   translated_as_work_indexed_cjk_v^5
   translated_as_work_indexed_rus_v^5
   translated_as_work_indexed_t^5
   translation_of_isbn_isbn^5
   translation_of_issn_num^5
+  translation_of_other_ids_e
   translation_of_work_indexed_ara_v^5
   translation_of_work_indexed_cjk_v^5
   translation_of_work_indexed_rus_v^5
   translation_of_work_indexed_t^5
+  upc_indexed_num
 </str>
 <str name="qf">
   alt_edition_isbn_isbn^5
   alt_edition_issn_num^5
+  alt_edition_other_ids_e
   alt_edition_work_indexed_ara_v^5
   alt_edition_work_indexed_cjk_v^5
   alt_edition_work_indexed_rus_v^5
   alt_edition_work_indexed_t^5
-  data_source_isbn_isbn^1
-  data_source_issn_num^1
-  data_source_work_indexed_ara_v^1
-  data_source_work_indexed_cjk_v^1
-  data_source_work_indexed_rus_v^1
-  data_source_work_indexed_t^1
+  barcodes_strps
+  data_source_isbn_isbn
+  data_source_issn_num
+  data_source_other_ids_e
+  data_source_work_indexed_ara_v
+  data_source_work_indexed_cjk_v
+  data_source_work_indexed_rus_v
+  data_source_work_indexed_t
   earlier_isbn_isbn^3
   earlier_issn_num^3
+  earlier_other_ids_e
   earlier_work_indexed_ara_v^3
   earlier_work_indexed_cjk_v^3
   earlier_work_indexed_rus_v^3
@@ -553,20 +584,23 @@
   genre_headings_cjk_v^50
   genre_headings_rus_v^50
   genre_headings_t^50
-  has_supplement_isbn_isbn^1
-  has_supplement_issn_num^1
-  has_supplement_work_indexed_ara_v^1
-  has_supplement_work_indexed_cjk_v^1
-  has_supplement_work_indexed_rus_v^1
-  has_supplement_work_indexed_t^1
-  host_item_isbn_isbn^1
-  host_item_issn_num^1
-  host_item_work_indexed_ara_v^1
-  host_item_work_indexed_cjk_v^1
-  host_item_work_indexed_rus_v^1
-  host_item_work_indexed_t^1
+  has_supplement_isbn_isbn
+  has_supplement_issn_num
+  has_supplement_other_ids_e
+  has_supplement_work_indexed_ara_v
+  has_supplement_work_indexed_cjk_v
+  has_supplement_work_indexed_rus_v
+  has_supplement_work_indexed_t
+  host_item_isbn_isbn
+  host_item_issn_num
+  host_item_other_ids_e
+  host_item_work_indexed_ara_v
+  host_item_work_indexed_cjk_v
+  host_item_work_indexed_rus_v
+  host_item_work_indexed_t
   included_isbn_isbn^35
   included_issn_num^35
+  included_other_ids_e
   included_work_indexed_ara_v^35
   included_work_indexed_cjk_v^35
   included_work_indexed_rus_v^35
@@ -577,56 +611,59 @@
   issn_series_num^50
   issued_with_isbn_isbn^2
   issued_with_issn_num^2
+  issued_with_other_ids_e
   issued_with_work_indexed_ara_v^2
   issued_with_work_indexed_cjk_v^2
   issued_with_work_indexed_rus_v^2
   issued_with_work_indexed_t^2
   later_isbn_isbn^3
   later_issn_num^3
+  later_other_ids_e
   later_work_indexed_ara_v^3
   later_work_indexed_cjk_v^3
   later_work_indexed_rus_v^3
   later_work_indexed_t^3
+  misc_id_indexed_e
   names_contributor_ara_v^35
   names_contributor_cjk_v^35
   names_contributor_rus_v^35
-  names_contributor_t^35
+  names_contributor_tp^35
   names_creator_ara_v^50
   names_creator_cjk_v^50
   names_creator_rus_v^50
-  names_creator_t^50
+  names_creator_tp^100
   names_director_ara_v^50
   names_director_cjk_v^50
   names_director_rus_v^50
-  names_director_t^50
+  names_director_tp^100
   names_editor_ara_v^45
   names_editor_cjk_v^45
   names_editor_rus_v^45
-  names_editor_t^45
+  names_editor_tp^45
   names_manufacturer_ara_v^20
   names_manufacturer_cjk_v^20
   names_manufacturer_rus_v^20
-  names_manufacturer_t^20
+  names_manufacturer_tp^20
   names_no_rel_ara_v^45
   names_no_rel_cjk_v^45
   names_no_rel_rus_v^45
-  names_no_rel_t^45
+  names_no_rel_tp^100
   names_other_ara_v^30
   names_other_cjk_v^30
   names_other_rus_v^30
-  names_other_t^30
+  names_other_tp^30
   names_owner_ara_v^30
   names_owner_cjk_v^30
   names_owner_rus_v^30
-  names_owner_t^30
+  names_owner_tp^30
   names_publisher_ara_v^20
   names_publisher_cjk_v^20
   names_publisher_rus_v^20
-  names_publisher_t^20
+  names_publisher_tp^20
   names_uncategorized_ara_v^30
   names_uncategorized_cjk_v^30
   names_uncategorized_rus_v^30
-  names_uncategorized_t^30
+  names_uncategorized_tp^30
   note_admin_history_ara_v^20
   note_admin_history_cjk_v^20
   note_admin_history_rus_v^20
@@ -662,11 +699,11 @@
   note_performer_credits_indexed_ara_v^30
   note_performer_credits_indexed_cjk_v^30
   note_performer_credits_indexed_rus_v^30
-  note_performer_credits_indexed_t^30
+  note_performer_credits_indexed_tp^30
   note_production_credits_ara_v^30
   note_production_credits_cjk_v^30
   note_production_credits_rus_v^30
-  note_production_credits_t^30
+  note_production_credits_tp^30
   note_related_work_indexed_ara_v^30
   note_related_work_indexed_cjk_v^30
   note_related_work_indexed_rus_v^30
@@ -691,6 +728,8 @@
   note_with_cjk_v^20
   note_with_rus_v^20
   note_with_t^20
+  oclc_number_num
+  oclc_number_old_num
   physical_description_details_indexed_ara_v^20
   physical_description_details_indexed_cjk_v^20
   physical_description_details_indexed_rus_v^20
@@ -703,268 +742,348 @@
   publisher_cjk_v^20
   publisher_rus_v^20
   publisher_t^20
-  related_isbn_isbn^1
-  related_issn_num^1
-  related_work_indexed_ara_v^1
-  related_work_indexed_cjk_v^1
-  related_work_indexed_rus_v^1
-  related_work_indexed_t^1
+  related_isbn_isbn
+  related_issn_num
+  related_other_ids_e
+  related_work_indexed_ara_v
+  related_work_indexed_cjk_v
+  related_work_indexed_rus_v
+  related_work_indexed_t
   series_issn_num^35
   series_statement_indexed_ara_v^35
   series_statement_indexed_cjk_v^35
   series_statement_indexed_rus_v^35
   series_statement_indexed_t^35
-  series_statement_issn_isbn^35
+  series_statement_issn_num^35
   series_statement_other_ids_num^35
   series_work_indexed_ara_v^35
   series_work_indexed_cjk_v^35
   series_work_indexed_rus_v^35
   series_work_indexed_t^35
-  short_title_t^100
+  short_title_t^500
+  short_title_tp^100
   statement_of_responsibility_ara_v^50
   statement_of_responsibility_cjk_v^50
   statement_of_responsibility_rus_v^50
-  statement_of_responsibility_t^50
-  subject_headings_ara_v^50
-  subject_headings_cjk_v^50
-  subject_headings_remapped_t^50
-  subject_headings_rus_v^50
-  subject_headings_t^50
-  subseries_work_indexed_ara_v^35
-  subseries_work_indexed_cjk_v^35
-  subseries_work_indexed_rus_v^35
-  subseries_work_indexed_t^35
-  supplement_to_isbn_isbn^1
-  supplement_to_issn_num^1
-  supplement_to_other_ids_num^1
-  supplement_to_work_indexed_ara_v^1
-  supplement_to_work_indexed_cjk_v^1
-  supplement_to_work_indexed_rus_v^1
-  supplement_to_work_indexed_t^1
-  this_work_indexed_ara_v^35
-  this_work_indexed_cjk_v^35
-  this_work_indexed_rus_v^35
-  this_work_indexed_t^35
-  title_abbrev_indexed_ara_v^35
-  title_abbrev_indexed_cjk_v^35
-  title_abbrev_indexed_rus_v^35
-  title_abbrev_indexed_t^35
-  title_former_indexed_ara_v^40
-  title_former_indexed_cjk_v^40
-  title_former_indexed_rus_v^40
-  title_former_indexed_t^40
-  title_key_indexed_ara_v^35
-  title_key_indexed_cjk_v^35
-  title_key_indexed_rus_v^35
-  title_key_indexed_t^35
-  title_main_ara_v^50
-  title_main_cjk_v^50
-  title_main_indexed_t^50
-  title_main_rus_v^50
-  title_variant_indexed_ara_v^40
-  title_variant_indexed_cjk_v^40
-  title_variant_indexed_rus_v^40
-  title_variant_indexed_t^40
-  translated_as_isbn_isbn^5
-  translated_as_issn_num^5
-  translated_as_work_indexed_ara_v^5
-  translated_as_work_indexed_cjk_v^5
-  translated_as_work_indexed_rus_v^5
-  translated_as_work_indexed_t^5
-  translation_of_isbn_isbn^5
-  translation_of_issn_num^5
-  translation_of_work_indexed_ara_v^5
-  translation_of_work_indexed_cjk_v^5
-  translation_of_work_indexed_rus_v^5
-  translation_of_work_indexed_t^5
-</str>
-<str name="subject_pf">
-  genre_headings_ara_v^50
-  genre_headings_cjk_v^50
-  genre_headings_rus_v^50
-  genre_headings_t^50
-  subject_headings_ara_v^50
-  subject_headings_cjk_v^50
-  subject_headings_remapped_t^50
-  subject_headings_rus_v^50
-  subject_headings_t^50
-</str>
-<str name="subject_qf">
-  genre_headings_ara_v
-  genre_headings_cjk_v
-  genre_headings_rus_v
-  genre_headings_t
+  statement_of_responsibility_tp^50
   subject_headings_ara_v
   subject_headings_cjk_v
   subject_headings_remapped_t
   subject_headings_rus_v
   subject_headings_t
+  subseries_work_indexed_ara_v^35
+  subseries_work_indexed_cjk_v^35
+  subseries_work_indexed_rus_v^35
+  subseries_work_indexed_t^35
+  supplement_to_isbn_isbn
+  supplement_to_issn_num
+  supplement_to_other_ids_num
+  supplement_to_work_indexed_ara_v
+  supplement_to_work_indexed_cjk_v
+  supplement_to_work_indexed_rus_v
+  supplement_to_work_indexed_t
+  this_work_indexed_ara_v^35
+  this_work_indexed_cjk_v^35
+  this_work_indexed_rus_v^35
+  this_work_indexed_t^35
+  title_abbrev_indexed_ara_v^35
+  title_abbrev_indexed_cjk_v^35
+  title_abbrev_indexed_rus_v^35
+  title_abbrev_indexed_t^35
+  title_abbrev_indexed_tp^70
+  title_former_indexed_ara_v^40
+  title_former_indexed_cjk_v^40
+  title_former_indexed_rus_v^40
+  title_former_indexed_t^40
+  title_former_indexed_tp^80
+  title_key_indexed_ara_v^35
+  title_key_indexed_cjk_v^35
+  title_key_indexed_rus_v^35
+  title_key_indexed_t^35
+  title_key_indexed_tp^70
+  title_main_ara_v^100
+  title_main_cjk_v^100
+  title_main_indexed_t^200
+  title_main_indexed_tp^500
+  title_main_rus_v^100
+  title_variant_indexed_ara_v^40
+  title_variant_indexed_cjk_v^40
+  title_variant_indexed_rus_v^40
+  title_variant_indexed_t^40
+  title_variant_indexed_tp^80
+  translated_as_isbn_isbn^5
+  translated_as_issn_num^5
+  translated_as_other_ids_e
+  translated_as_work_indexed_ara_v^5
+  translated_as_work_indexed_cjk_v^5
+  translated_as_work_indexed_rus_v^5
+  translated_as_work_indexed_t^5
+  translation_of_isbn_isbn^5
+  translation_of_issn_num^5
+  translation_of_other_ids_e
+  translation_of_work_indexed_ara_v^5
+  translation_of_work_indexed_cjk_v^5
+  translation_of_work_indexed_rus_v^5
+  translation_of_work_indexed_t^5
+  upc_indexed_num
+</str>
+<str name="subject_pf">
+  genre_headings_ara_v^25
+  genre_headings_cjk_v^25
+  genre_headings_rus_v^25
+  genre_headings_t^50
+  genre_headings_tl^200
+  genre_headings_tp^100
+  subject_headings_ara_v^25
+  subject_headings_cjk_v^25
+  subject_headings_remapped_t^50
+  subject_headings_remapped_tl^200
+  subject_headings_remapped_tp^100
+  subject_headings_rus_v^25
+  subject_headings_t^50
+  subject_headings_tl^200
+  subject_headings_tp^100
+</str>
+<str name="subject_qf">
+  genre_headings_ara_v
+  genre_headings_cjk_v
+  genre_headings_rus_v
+  genre_headings_t^10
+  genre_headings_tl^40
+  genre_headings_tp^20
+  subject_headings_ara_v
+  subject_headings_cjk_v
+  subject_headings_remapped_t^10
+  subject_headings_remapped_tl^40
+  subject_headings_remapped_tp^20
+  subject_headings_rus_v
+  subject_headings_t^10
+  subject_headings_tl^40
+  subject_headings_tp^20
+</str>
+<str name="genre_pf">
+  genre_headings_ara_v^25
+  genre_headings_cjk_v^25
+  genre_headings_rus_v^25
+  genre_headings_t^50
+  genre_headings_tl^200
+  genre_headings_tp^100
+</str>
+<str name="genre_qf">
+  genre_headings_ara_v
+  genre_headings_cjk_v
+  genre_headings_rus_v
+  genre_headings_t^10
+  genre_headings_tl^40
+  genre_headings_tp^20
 </str>
 <str name="title_pf">
-  alt_edition_title_ara_v^1
-  alt_edition_title_cjk_v^1
-  alt_edition_title_rus_v^1
-  alt_edition_title_t^1
-  data_source_title_ara_v^1
-  data_source_title_cjk_v^1
-  data_source_title_rus_v^1
-  data_source_title_t^1
+  alt_edition_title_ara_v
+  alt_edition_title_cjk_v
+  alt_edition_title_rus_v
+  alt_edition_title_t
+  alt_edition_title_tp^2
+  data_source_title_ara_v
+  data_source_title_cjk_v
+  data_source_title_rus_v
+  data_source_title_t
+  data_source_title_tp^2
   earlier_title_ara_v^10
   earlier_title_cjk_v^10
   earlier_title_rus_v^10
   earlier_title_t^10
-  has_supplement_title_ara_v^1
-  has_supplement_title_cjk_v^1
-  has_supplement_title_rus_v^1
-  has_supplement_title_t^1
-  host_item_title_ara_v^1
-  host_item_title_cjk_v^1
-  host_item_title_rus_v^1
-  host_item_title_t^1
+  earlier_title_tp^20
+  has_supplement_title_ara_v
+  has_supplement_title_cjk_v
+  has_supplement_title_rus_v
+  has_supplement_title_t
+  has_supplement_title_tp^2
+  host_item_title_ara_v
+  host_item_title_cjk_v
+  host_item_title_rus_v
+  host_item_title_t
+  host_item_title_tp^2
   included_title_ara_v^30
   included_title_cjk_v^30
   included_title_rus_v^30
   included_title_t^30
+  included_title_tp^60
   issued_with_title_ara_v^5
   issued_with_title_cjk_v^5
   issued_with_title_rus_v^5
   issued_with_title_t^5
+  issued_with_title_tp^10
   later_title_ara_v^10
   later_title_cjk_v^10
   later_title_rus_v^10
   later_title_t^10
-  related_title_ara_v^1
-  related_title_cjk_v^1
-  related_title_rus_v^1
-  related_title_t^1
+  later_title_tp^20
+  related_title_ara_v
+  related_title_cjk_v
+  related_title_rus_v
+  related_title_t
+  related_title_tp^2
   series_title_ara_v^25
   series_title_cjk_v^25
   series_title_rus_v^25
   series_title_t^25
+  series_title_tp^50
   short_title_t^100
+  short_title_tp^200
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
   subseries_title_t^25
-  supplement_to_title_ara_v^1
-  supplement_to_title_cjk_v^1
-  supplement_to_title_rus_v^1
-  supplement_to_title_t^1
+  subseries_title_tp^50
+  supplement_to_title_ara_v
+  supplement_to_title_cjk_v
+  supplement_to_title_rus_v
+  supplement_to_title_t
+  supplement_to_title_tp^2
   this_title_ara_v^40
   this_title_cjk_v^40
   this_title_rus_v^40
   this_title_t^40
+  this_title_tp^80
   title_abbrev_indexed_ara_v^40
   title_abbrev_indexed_cjk_v^40
   title_abbrev_indexed_rus_v^40
   title_abbrev_indexed_t^40
+  title_abbrev_indexed_tp^80
   title_former_indexed_ara_v^40
   title_former_indexed_cjk_v^40
   title_former_indexed_rus_v^40
   title_former_indexed_t^40
+  title_former_indexed_tp^80
   title_key_indexed_ara_v^40
   title_key_indexed_cjk_v^40
   title_key_indexed_rus_v^40
   title_key_indexed_t^40
+  title_key_indexed_tp^80
   title_main_ara_v^50
   title_main_cjk_v^50
   title_main_indexed_t^50
+  title_main_indexed_tp^500
   title_main_rus_v^50
   title_variant_indexed_ara_v^40
   title_variant_indexed_cjk_v^40
   title_variant_indexed_rus_v^40
   title_variant_indexed_t^40
-  translated_as_title_ara_v^1
-  translated_as_title_cjk_v^1
-  translated_as_title_rus_v^1
-  translated_as_title_t^1
-  translation_of_title_ara_v^1
-  translation_of_title_cjk_v^1
-  translation_of_title_rus_v^1
-  translation_of_title_t^1
+  title_variant_indexed_tp^80
+  translated_as_title_ara_v
+  translated_as_title_cjk_v
+  translated_as_title_rus_v
+  translated_as_title_t
+  translated_as_title_tp^2
+  translation_of_title_ara_v
+  translation_of_title_cjk_v
+  translation_of_title_rus_v
+  translation_of_title_t
+  translation_of_title_tp^2
 </str>
 <str name="title_qf">
-  alt_edition_title_ara_v^1
-  alt_edition_title_cjk_v^1
-  alt_edition_title_rus_v^1
-  alt_edition_title_t^1
-  data_source_title_ara_v^1
-  data_source_title_cjk_v^1
-  data_source_title_rus_v^1
-  data_source_title_t^1
+  alt_edition_title_ara_v
+  alt_edition_title_cjk_v
+  alt_edition_title_rus_v
+  alt_edition_title_t
+  alt_edition_title_tp^2
+  data_source_title_ara_v
+  data_source_title_cjk_v
+  data_source_title_rus_v
+  data_source_title_t
+  data_source_title_tp^2
   earlier_title_ara_v^10
   earlier_title_cjk_v^10
   earlier_title_rus_v^10
   earlier_title_t^10
-  has_supplement_title_ara_v^1
-  has_supplement_title_cjk_v^1
-  has_supplement_title_rus_v^1
-  has_supplement_title_t^1
-  host_item_title_ara_v^1
-  host_item_title_cjk_v^1
-  host_item_title_rus_v^1
-  host_item_title_t^1
+  earlier_title_tp^20
+  has_supplement_title_ara_v
+  has_supplement_title_cjk_v
+  has_supplement_title_rus_v
+  has_supplement_title_t
+  has_supplement_title_tp^2
+  host_item_title_ara_v
+  host_item_title_cjk_v
+  host_item_title_rus_v
+  host_item_title_t
+  host_item_title_tp^2
   included_title_ara_v^30
   included_title_cjk_v^30
   included_title_rus_v^30
   included_title_t^30
+  included_title_tp^60
   issued_with_title_ara_v^5
   issued_with_title_cjk_v^5
   issued_with_title_rus_v^5
   issued_with_title_t^5
+  issued_with_title_tp^10
   later_title_ara_v^10
   later_title_cjk_v^10
   later_title_rus_v^10
   later_title_t^10
-  related_title_ara_v^1
-  related_title_cjk_v^1
-  related_title_rus_v^1
-  related_title_t^1
+  later_title_tp^20
+  related_title_ara_v
+  related_title_cjk_v
+  related_title_rus_v
+  related_title_t
+  related_title_tp^2
   series_title_ara_v^25
   series_title_cjk_v^25
   series_title_rus_v^25
   series_title_t^25
+  series_title_tp^50
   short_title_t^100
+  short_title_tp^200
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
   subseries_title_t^25
-  supplement_to_title_ara_v^1
-  supplement_to_title_cjk_v^1
-  supplement_to_title_rus_v^1
-  supplement_to_title_t^1
+  subseries_title_tp^50
+  supplement_to_title_ara_v
+  supplement_to_title_cjk_v
+  supplement_to_title_rus_v
+  supplement_to_title_t
+  supplement_to_title_tp^2
   this_title_ara_v^40
   this_title_cjk_v^40
   this_title_rus_v^40
   this_title_t^40
+  this_title_tp^80
   title_abbrev_indexed_ara_v^40
   title_abbrev_indexed_cjk_v^40
   title_abbrev_indexed_rus_v^40
   title_abbrev_indexed_t^40
+  title_abbrev_indexed_tp^80
   title_former_indexed_ara_v^40
   title_former_indexed_cjk_v^40
   title_former_indexed_rus_v^40
   title_former_indexed_t^40
+  title_former_indexed_tp^80
   title_key_indexed_ara_v^40
   title_key_indexed_cjk_v^40
   title_key_indexed_rus_v^40
   title_key_indexed_t^40
+  title_key_indexed_tp^80
   title_main_ara_v^50
   title_main_cjk_v^50
   title_main_indexed_t^50
+  title_main_indexed_tp^500
   title_main_rus_v^50
   title_variant_indexed_ara_v^40
   title_variant_indexed_cjk_v^40
   title_variant_indexed_rus_v^40
   title_variant_indexed_t^40
-  translated_as_title_ara_v^1
-  translated_as_title_cjk_v^1
-  translated_as_title_rus_v^1
-  translated_as_title_t^1
-  translation_of_title_ara_v^1
-  translation_of_title_cjk_v^1
-  translation_of_title_rus_v^1
-  translation_of_title_t^1
+  title_variant_indexed_tp^80
+  translated_as_title_ara_v
+  translated_as_title_cjk_v
+  translated_as_title_rus_v
+  translated_as_title_t
+  translated_as_title_tp^2
+  translation_of_title_ara_v
+  translation_of_title_cjk_v
+  translation_of_title_rus_v
+  translation_of_title_t
+  translation_of_title_tp^2
 </str>
 <str name="publisher_pf">
   publisher_ara_v^10
@@ -983,22 +1102,22 @@
   alt_edition_work_indexed_cjk_v^5
   alt_edition_work_indexed_rus_v^5
   alt_edition_work_indexed_t^5
-  data_source_work_indexed_ara_v^1
-  data_source_work_indexed_cjk_v^1
-  data_source_work_indexed_rus_v^1
-  data_source_work_indexed_t^1
+  data_source_work_indexed_ara_v
+  data_source_work_indexed_cjk_v
+  data_source_work_indexed_rus_v
+  data_source_work_indexed_t
   earlier_work_indexed_ara_v^3
   earlier_work_indexed_cjk_v^3
   earlier_work_indexed_rus_v^3
   earlier_work_indexed_t^3
-  has_supplement_work_indexed_ara_v^1
-  has_supplement_work_indexed_cjk_v^1
-  has_supplement_work_indexed_rus_v^1
-  has_supplement_work_indexed_t^1
-  host_item_work_indexed_ara_v^1
-  host_item_work_indexed_cjk_v^1
-  host_item_work_indexed_rus_v^1
-  host_item_work_indexed_t^1
+  has_supplement_work_indexed_ara_v
+  has_supplement_work_indexed_cjk_v
+  has_supplement_work_indexed_rus_v
+  has_supplement_work_indexed_t
+  host_item_work_indexed_ara_v
+  host_item_work_indexed_cjk_v
+  host_item_work_indexed_rus_v
+  host_item_work_indexed_t
   included_work_indexed_ara_v^35
   included_work_indexed_cjk_v^35
   included_work_indexed_rus_v^35
@@ -1011,10 +1130,10 @@
   later_work_indexed_cjk_v^3
   later_work_indexed_rus_v^3
   later_work_indexed_t^3
-  related_work_indexed_ara_v^1
-  related_work_indexed_cjk_v^1
-  related_work_indexed_rus_v^1
-  related_work_indexed_t^1
+  related_work_indexed_ara_v
+  related_work_indexed_cjk_v
+  related_work_indexed_rus_v
+  related_work_indexed_t
   series_work_indexed_ara_v^35
   series_work_indexed_cjk_v^35
   series_work_indexed_rus_v^35
@@ -1023,10 +1142,10 @@
   subseries_work_indexed_cjk_v^35
   subseries_work_indexed_rus_v^35
   subseries_work_indexed_t^35
-  supplement_to_work_indexed_ara_v^1
-  supplement_to_work_indexed_cjk_v^1
-  supplement_to_work_indexed_rus_v^1
-  supplement_to_work_indexed_t^1
+  supplement_to_work_indexed_ara_v
+  supplement_to_work_indexed_cjk_v
+  supplement_to_work_indexed_rus_v
+  supplement_to_work_indexed_t
   this_work_indexed_ara_v^35
   this_work_indexed_cjk_v^35
   this_work_indexed_rus_v^35
@@ -1045,22 +1164,22 @@
   alt_edition_work_indexed_cjk_v^5
   alt_edition_work_indexed_rus_v^5
   alt_edition_work_indexed_t^5
-  data_source_work_indexed_ara_v^1
-  data_source_work_indexed_cjk_v^1
-  data_source_work_indexed_rus_v^1
-  data_source_work_indexed_t^1
+  data_source_work_indexed_ara_v
+  data_source_work_indexed_cjk_v
+  data_source_work_indexed_rus_v
+  data_source_work_indexed_t
   earlier_work_indexed_ara_v^3
   earlier_work_indexed_cjk_v^3
   earlier_work_indexed_rus_v^3
   earlier_work_indexed_t^3
-  has_supplement_work_indexed_ara_v^1
-  has_supplement_work_indexed_cjk_v^1
-  has_supplement_work_indexed_rus_v^1
-  has_supplement_work_indexed_t^1
-  host_item_work_indexed_ara_v^1
-  host_item_work_indexed_cjk_v^1
-  host_item_work_indexed_rus_v^1
-  host_item_work_indexed_t^1
+  has_supplement_work_indexed_ara_v
+  has_supplement_work_indexed_cjk_v
+  has_supplement_work_indexed_rus_v
+  has_supplement_work_indexed_t
+  host_item_work_indexed_ara_v
+  host_item_work_indexed_cjk_v
+  host_item_work_indexed_rus_v
+  host_item_work_indexed_t
   included_work_indexed_ara_v^35
   included_work_indexed_cjk_v^35
   included_work_indexed_rus_v^35
@@ -1073,10 +1192,10 @@
   later_work_indexed_cjk_v^3
   later_work_indexed_rus_v^3
   later_work_indexed_t^3
-  related_work_indexed_ara_v^1
-  related_work_indexed_cjk_v^1
-  related_work_indexed_rus_v^1
-  related_work_indexed_t^1
+  related_work_indexed_ara_v
+  related_work_indexed_cjk_v
+  related_work_indexed_rus_v
+  related_work_indexed_t
   series_work_indexed_ara_v^35
   series_work_indexed_cjk_v^35
   series_work_indexed_rus_v^35
@@ -1085,10 +1204,10 @@
   subseries_work_indexed_cjk_v^35
   subseries_work_indexed_rus_v^35
   subseries_work_indexed_t^35
-  supplement_to_work_indexed_ara_v^1
-  supplement_to_work_indexed_cjk_v^1
-  supplement_to_work_indexed_rus_v^1
-  supplement_to_work_indexed_t^1
+  supplement_to_work_indexed_ara_v
+  supplement_to_work_indexed_cjk_v
+  supplement_to_work_indexed_rus_v
+  supplement_to_work_indexed_t
   this_work_indexed_ara_v^35
   this_work_indexed_cjk_v^35
   this_work_indexed_rus_v^35

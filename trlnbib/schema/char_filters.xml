@@ -1,0 +1,10 @@
+<!-- - PatternReplaceCharFilterFactory removes stand-alone punctuation,
+          which gets dropped by the WDGF but an empty hole is left
+          in the position and screws up phrase searches
+     - ICUNormalizer2CharFilterFactory does nkfc normalization (ICU Normalizer2)
+     - MappingCharFilterFactory does char-level expansion, (for example, flats and sharps)
+-->
+
+<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\s+(\p{Punct}+)\s+" replacement=" " />
+<charFilter class="solr.ICUNormalizer2CharFilterFactory"/>
+<charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
