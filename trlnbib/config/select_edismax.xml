@@ -484,7 +484,7 @@
   series_work_indexed_rus_v^35
   series_work_indexed_t^35
   short_title_t^100
-  short_title_tp^200
+  short_title_tp^500
   statement_of_responsibility_ara_v^50
   statement_of_responsibility_cjk_v^50
   statement_of_responsibility_rus_v^50
@@ -529,7 +529,7 @@
   title_main_ara_v^100
   title_main_cjk_v^100
   title_main_indexed_t^100
-  title_main_indexed_tp^200
+  title_main_indexed_tp^500
   title_main_rus_v^100
   title_variant_indexed_ara_v^40
   title_variant_indexed_cjk_v^40
@@ -759,8 +759,8 @@
   series_work_indexed_cjk_v^35
   series_work_indexed_rus_v^35
   series_work_indexed_t^35
-  short_title_t^500
-  short_title_tp^100
+  short_title_t^100
+  short_title_tp^500
   statement_of_responsibility_ara_v^50
   statement_of_responsibility_cjk_v^50
   statement_of_responsibility_rus_v^50
@@ -802,7 +802,7 @@
   title_key_indexed_tp^70
   title_main_ara_v^100
   title_main_cjk_v^100
-  title_main_indexed_t^200
+  title_main_indexed_t^100
   title_main_indexed_tp^500
   title_main_rus_v^100
   title_variant_indexed_ara_v^40
@@ -928,7 +928,7 @@
   series_title_t^25
   series_title_tp^50
   short_title_t^100
-  short_title_tp^200
+  short_title_tp^500
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
@@ -961,7 +961,7 @@
   title_key_indexed_tp^80
   title_main_ara_v^50
   title_main_cjk_v^50
-  title_main_indexed_t^50
+  title_main_indexed_t^100
   title_main_indexed_tp^500
   title_main_rus_v^50
   title_variant_indexed_ara_v^40
@@ -1032,7 +1032,7 @@
   series_title_t^25
   series_title_tp^50
   short_title_t^100
-  short_title_tp^200
+  short_title_tp^500
   subseries_title_ara_v^25
   subseries_title_cjk_v^25
   subseries_title_rus_v^25
@@ -1065,7 +1065,7 @@
   title_key_indexed_tp^80
   title_main_ara_v^50
   title_main_cjk_v^50
-  title_main_indexed_t^50
+  title_main_indexed_t^100
   title_main_indexed_tp^500
   title_main_rus_v^50
   title_variant_indexed_ara_v^40
