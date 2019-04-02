@@ -96,12 +96,3 @@
     <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
   </analyzer>
 </fieldType>
-
-<fieldType name="text_suggest" class="solr.TextField" positionIncrementGap="&tpig;">
-  <analyzer>
-    <tokenizer class="solr.StandardTokenizerFactory"/>
-    <filter class="solr.StandardFilterFactory"/>
-    <filter class="solr.LowerCaseFilterFactory"/>
-  </analyzer>
-</fieldType>
-
