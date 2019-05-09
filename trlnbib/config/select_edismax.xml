@@ -489,6 +489,7 @@
   note_with_t^20
   oclc_number_num
   oclc_number_old_num
+  origin_place_search_t
   physical_description_details_indexed_ara_v^20
   physical_description_details_indexed_cjk_v^20
   physical_description_details_indexed_rus_v^20
@@ -911,6 +912,7 @@
   note_with_t^20
   oclc_number_num
   oclc_number_old_num
+  origin_place_search_t
   physical_description_details_indexed_ara_v^20
   physical_description_details_indexed_cjk_v^20
   physical_description_details_indexed_rus_v^20
