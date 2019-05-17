@@ -450,6 +450,7 @@
         <str name="sow">true</str>
         <str name="uf">-*</str>
         <str name="qs">1</str>
+        <str name="lowercaseOperators">false</str>
         &select_edismax;
     </lst>
 </requestHandler>
