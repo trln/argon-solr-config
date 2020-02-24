@@ -49,7 +49,7 @@ psychinfo,pyscinfo
 9th,ninth,nineth
 10th,tenth
 11th,eleventh
-12th,twelveth
+12th,twelfth
 13th,thirteenth
 II,two,second
 III,three,third

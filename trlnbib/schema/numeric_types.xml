@@ -20,7 +20,7 @@
 
 
 <fieldtype name="numericID" class="solr.TextField" positionIncrementGap="1000" omitNorms="true">
-  <analyzer>
+  <analyzer type="index">
       <tokenizer class="solr.KeywordTokenizerFactory"/>
       <filter class="solr.TrimFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="^.*?(\p{N}[\p{N}\-\.]{&min_numid_length_minus_two;,}[xX]?).*$" replacement="***$1"/>
@@ -29,7 +29,19 @@
       <filter class="solr.LowerCaseFilterFactory"/>
       <filter class="solr.PatternReplaceFilterFactory" pattern="[^\p{N}x]" replacement="" replace="all"/>
       <filter class="solr.LengthFilterFactory" min="&min_numid_length;" max="&max_numid_length;"/>
-      <!--<filter class="solr.PatternReplaceFilterFactory" pattern="^0*" replacement=""/>-->
+      <!-- <filter class="solr.PatternReplaceFilterFactory" pattern="^0*" replacement=""/> -->
+  </analyzer>
+  <analyzer type="query">
+      <tokenizer class="solr.KeywordTokenizerFactory"/>
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords_punctuation.txt" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="^.*?(\p{N}[\p{N}\-\.]{&min_numid_length_minus_two;,}[xX]?).*$" replacement="***$1"/>
+      <filter class="solr.PatternReplaceFilterFactory" pattern="^[^\*].*$" replacement=""/>
+      <filter class="solr.PatternReplaceFilterFactory" pattern="^\*\*\*" replacement=""/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.PatternReplaceFilterFactory" pattern="[^\p{N}x]" replacement="" replace="all"/>
+      <filter class="solr.LengthFilterFactory" min="&min_numid_length;" max="&max_numid_length;"/>
+      <!-- <filter class="solr.PatternReplaceFilterFactory" pattern="^0*" replacement=""/> -->
   </analyzer>
 </fieldtype>
 

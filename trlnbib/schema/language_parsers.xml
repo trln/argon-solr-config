@@ -42,7 +42,7 @@
 <!-- CJK bigram (see text_ja for a Japanese configuration using morphological analysis) -->
 <dynamicField name="*_cjk_v" type="text_cjk" indexed="true" stored="false" multiValued="true"/>
 <copyField source="*_cjk_v" dest="*_vern" />
-<fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="100">
+<fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="10000">
   <analyzer>
     <!-- CJK analysis chain based on Stanford's pattern -->
     <!-- remove spaces among hangul and han chars if there is at least one hangul char -->

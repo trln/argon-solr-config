@@ -449,13 +449,15 @@
         <str name="q.alt">*:*</str>
         <str name="sow">true</str>
         <str name="uf">-*</str>
+        <str name="qs">1</str>
+        <str name="lowercaseOperators">false</str>
         &select_edismax;
     </lst>
 </requestHandler>
 
 <requestHandler name="/document" class="solr.SearchHandler">
   <lst name="defaults">
-    <str name="q">{!term f= id v = $id}</str>
+    <str name="q">{!term f=id v=$id}</str>
     <int name="rows">1</int>
     <str name="fl">*</str>
     <str name="echoParams">explicit</str>
@@ -567,7 +569,7 @@
     <lst name="suggester">
       <str name="name">authorSuggester</str>
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
       <str name="indexPath">suggest_author_store</str>
       <str name="field">author_suggest</str>
@@ -577,7 +579,7 @@
     <lst name="suggester">
       <str name="name">titleSuggester</str>
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
       <str name="indexPath">suggest_title_store</str>
       <str name="field">title_suggest</str>
@@ -587,7 +589,7 @@
     <lst name="suggester">
       <str name="name">subjectSuggester</str>
       <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-      <str name="suggestAnalyzerFieldType">text_suggest</str>
+      <str name="suggestAnalyzerFieldType">text</str>
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
       <str name="indexPath">suggest_subject_store</str>
       <str name="field">subject_suggest</str>
@@ -660,15 +662,6 @@
     <arr name="components">
       <str>terms</str>
     </arr>
-  </requestHandler>
-
-  <requestHandler name="document" class="solr.SearchHandler" >
-    <lst name="defaults">
-      <str name="echoParams">all</str>
-      <str name="fl">*</str>
-      <str name="rows">1</str>
-      <str name="q">{!term f=id v=$id}</str> <!-- use id=666 instead of q=id:666 -->
-    </lst>
   </requestHandler>
 
 </config>

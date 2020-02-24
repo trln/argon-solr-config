@@ -10,7 +10,7 @@
   <!ENTITY hunspellstemmer SYSTEM "schema/stemming/hunspellstemmer.xml">
 
   <!-- Variables to be inserted later or in included files -->
-  <!ENTITY stemmer "&kstemmer;">
+  <!ENTITY stemmer "&snowball_stemmer;">
 
   <!-- External Files -->
   <!ENTITY char_expansion_file "schema/token_fixing_charfilter.txt">
@@ -20,9 +20,9 @@
   <!ENTITY tpig "1000">
 
   <!-- Min/Max length of a numericID field -->
-  <!ENTITY min_numid_length "8">
-  <!ENTITY min_numid_length_minus_two "6"> <!-- can't compute in XML; change it when you change min_num_length -->
-  <!ENTITY max_numid_length "14">
+  <!ENTITY min_numid_length "1">
+  <!ENTITY min_numid_length_minus_two "0"> <!-- can't compute in XML; change it when you change min_num_length -->
+  <!ENTITY max_numid_length "20">
 
 
   <!-- Load up the field type definitions -->
@@ -30,9 +30,11 @@
 
   <!ENTITY primative_types  SYSTEM "schema/primative_types.xml">
 
+  <!ENTITY char_filters  SYSTEM "schema/char_filters.xml">
   <!ENTITY basic_text_chain SYSTEM "schema/basic_text_chain.xml">
   <!ENTITY basic_text_chain_with_synonyms SYSTEM "schema/basic_text_chain_with_synonyms.xml">
   <!ENTITY text_types       SYSTEM "schema/text_types.xml">
+  <!ENTITY string_types     SYSTEM "schema/string_types.xml">
   <!ENTITY numeric_types    SYSTEM "schema/numeric_types.xml">
   <!ENTITY delimited_types  SYSTEM "schema/delimited_types.xml">
 
@@ -99,6 +101,7 @@
   <!-- Load up the field types -->
   &primative_types;
   &text_types;
+  &string_types;
   &numeric_types;
   &library_types;
   &delimited_types;
@@ -181,9 +184,9 @@
   <field name="rollup_id" type="string" indexed="true" stored="true" multiValued="false" />
 
   <!-- Define fields used to build suggestion indexes -->
-  <field name="author_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
-  <field name="title_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
-  <field name="subject_suggest" type="text_suggest" indexed="false" stored="true" multiValued="true" />
+  <field name="author_suggest" type="text" indexed="false" stored="true" multiValued="true" />
+  <field name="title_suggest" type="text" indexed="false" stored="true" multiValued="true" />
+  <field name="subject_suggest" type="text" indexed="false" stored="true" multiValued="true" />
 
  <!-- Insert the dynamic fields -->
 
